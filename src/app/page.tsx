@@ -1,3 +1,9 @@
+import { CiSearch } from "react-icons/ci";
+
 export default function Home() {
-  return <main className="">Hello Blog</main>;
+  return (
+    <main className="">
+      <div></div>
+    </main>
+  );
 }
