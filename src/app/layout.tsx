@@ -2,6 +2,8 @@ import Navbar from "@/components/Header/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
