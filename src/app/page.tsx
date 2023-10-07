@@ -1,5 +1,6 @@
 import BlogList from "@/components/BlogList/BlogList";
 import CategoryCard from "@/components/Category/CategoryCard";
+import Footer from "@/components/Footer/Footer";
 import PopularPost from "@/components/PopularPost/PopularPost";
 import Subscription from "@/components/Subscription/Subscription";
 import Trending from "@/components/Trending/Trending";
@@ -38,8 +39,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       <Subscription />
+      <Footer />
     </main>
   );
 }
